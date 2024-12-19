@@ -8,7 +8,7 @@ function Car() {
         year: "1964",
         color: "red",
     });
-
+    
     // Function to update only the `color` property of the `car` object
     const updateColor = () => {
         setCar((previousState) => {
